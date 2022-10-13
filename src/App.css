@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.label-form {
+  margin:0 5px 0 15px;
+  font-size:16px;
+  font-weight: 700;
+}
+
+.mydisc {
+  background-color: #eee;
+  
+  width:auto;
+  height: 100px;
+  margin:auto;
+  border:none;
+  border-radius: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.mybtn {
+  margin:0 20px 0 30px;
+  color:white;
+  background-color:teal;
+  font-size: 16px;
+  font-weight: 700;
+
+  width:130px;
+  height:40px;
+  border:none;
+  border-radius: 10px;
+}
+
+.add-input1 {
+  border:none;
+  border-radius: 10px;
+
+  /* width:90%; */
+  width:250px;
+  height:35px;
+}
+
+.forms {
+  width:100%;
+  max-width:1200px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  gap:10px;
+}
+
+.list-title {
+  font-size:30px;
+  font-weight: 700;
+  margin-bottom:10px;
+}
+
+
+
+.section3 {
+  /* border:1px solid gray; */
+  width:1200px;
+  padding:20px;
+  margin:auto;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:initial;
+}
+
+.todo-container {
+  border:4px solid teal;
+  border-radius: 20px;
+  padding: 10px 22px 22px 22px;
+  /* width */
+  
+  width:270px;
+  height:auto;
+  
+}
+
+.todo-title {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width:85%;
+  max-width:400px;
+  height:50px;
+  margin:auto;
+
+  margin-top:12px;
+  gap:10px;
+}
+
+.button1 {
+  background-color:white;
+  border: 3px solid red;
+  border-radius: 10px;
+  font-size:16px;
+  padding:10px;
+
+  width:120px;
+}
+
+.button2 {
+  background-color: white;
+  border: 3px solid green;
+  border-radius: 10px;
+  font-size:16px;
+  padding:10px;
+
+  width:120px;
+}
+
+.Wrapper {
+  display:flex;
+  flex-wrap: wrap;
+  gap:12px;
+}
